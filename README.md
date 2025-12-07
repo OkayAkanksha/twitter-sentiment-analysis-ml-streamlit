@@ -34,4 +34,3 @@ Built with **Python, Scikit-Learn, NLP, TF-IDF, and Streamlit UI**.
 ├── requirements.txt          # Dependencies for deployment
 └── Twitter_Sentiment_Analysis_using_ML.ipynb  # Training notebook
 
----
