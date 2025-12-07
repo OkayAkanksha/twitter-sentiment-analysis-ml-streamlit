@@ -36,7 +36,9 @@ Built with **Python, Scikit-Learn, NLP, TF-IDF, and Streamlit UI**.
 
 ---
 
-**## Run this project locally**
+## ▶️ Run this project locally
+
+```bash
 git clone https://github.com/OkayAkanksha/twitter-sentiment-analysis-ml-streamlit.git
 cd twitter-sentiment-analysis-ml-streamlit
 pip install -r requirements.txt
