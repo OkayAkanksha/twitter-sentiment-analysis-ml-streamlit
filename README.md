@@ -33,3 +33,26 @@ Built with **Python, Scikit-Learn, NLP, TF-IDF, and Streamlit UI**.
 ├── vectorizer.pkl            # Saved TF-IDF vectorizer
 ├── requirements.txt          # Dependencies for deployment
 └── Twitter_Sentiment_Analysis_using_ML.ipynb  # Training notebook
+
+---
+
+**## ▶️ Run this project locally**
+```bash
+git clone https://github.com/OkayAkanksha/twitter-sentiment-analysis-ml-streamlit.git
+cd twitter-sentiment-analysis-ml-streamlit
+pip install -r requirements.txt
+python -m nltk.downloader stopwords
+streamlit run app.py
+
+---
+
+**## Dataset Link**
+https://www.kaggle.com/datasets/kazanova/sentiment140
+
+---
+
+**## Author**
+Akanksha Thakur
+GitHub: @OkayAkanksha
+
+
