@@ -3,6 +3,8 @@
 This project classifies tweets as **Positive** 😀 or **Negative** 😠 using a Machine Learning model trained on the **Sentiment140** dataset.  
 Built with **Python, Scikit-Learn, NLP, TF-IDF, and Streamlit UI**.
 
+**Note:** “To download the dataset from Kaggle, create your own kaggle.json API token and place it in ~/.kaggle/ or set it via environment variable.”
+
 ---
 
 ## 🚀 Features
