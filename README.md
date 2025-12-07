@@ -1,5 +1,7 @@
 # 🐦 Twitter Sentiment Analysis using Machine Learning & Streamlit
 
+![App Screenshot](https://github.com/OkayAkanksha/twitter-sentiment-analysis-ml-streamlit/blob/main/Screenshot%202025-12-07%20153253.png)
+
 This project classifies tweets as **Positive** 😀 or **Negative** 😠 using a Machine Learning model trained on the **Sentiment140** dataset.  
 Built with **Python, Scikit-Learn, NLP, TF-IDF, and Streamlit UI**.
 
