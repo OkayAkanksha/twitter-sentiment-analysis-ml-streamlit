@@ -3,16 +3,16 @@
 This project classifies tweets as **Positive** 😀 or **Negative** 😠 using a Machine Learning model trained on the **Sentiment140** dataset.  
 Built with **Python, Scikit-Learn, NLP, TF-IDF, and Streamlit UI**.
 
-**Note:** “To download the dataset from Kaggle, create your own kaggle.json API token and place it in ~/.kaggle/ or set it via environment variable.”
+> **Note:** To download the dataset from Kaggle, create your own `kaggle.json` API token and place it in `~/.kaggle/` or set it via environment variables.
 
 ---
 
 ## 🚀 Features
 - Text preprocessing with stemming and stopword removal
 - TF-IDF vectorization for feature extraction
-- Logistic Regression / ML Model trained on Sentiment140 dataset
+- Logistic Regression ML Model trained on Sentiment140 dataset
 - Interactive Web App built using Streamlit
-- Shows prediction and confidence score
+- Displays sentiment prediction and confidence score
 
 ---
 
@@ -33,26 +33,3 @@ Built with **Python, Scikit-Learn, NLP, TF-IDF, and Streamlit UI**.
 ├── vectorizer.pkl            # Saved TF-IDF vectorizer
 ├── requirements.txt          # Dependencies for deployment
 └── Twitter_Sentiment_Analysis_using_ML.ipynb  # Training notebook
-
----
-
-**## ▶️ Run this project locally**
-```bash
-git clone https://github.com/OkayAkanksha/twitter-sentiment-analysis-ml-streamlit.git
-cd twitter-sentiment-analysis-ml-streamlit
-pip install -r requirements.txt
-python -m nltk.downloader stopwords
-streamlit run app.py
-
----
-
-**## Dataset Link**
-https://www.kaggle.com/datasets/kazanova/sentiment140
-
----
-
-**## Author**
-Akanksha Thakur
-GitHub: @OkayAkanksha
-
-
