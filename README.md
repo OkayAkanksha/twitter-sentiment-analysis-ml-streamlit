@@ -38,8 +38,13 @@ Built with **Python, Scikit-Learn, NLP, TF-IDF, and Streamlit UI**.
 
 ---
 
-**## ▶️ Run this project locally
-**
+## 🌍 Live Demo
+(https://twitter-sentiment-analysis-ml-app-idpd6b8fl3wqij6czdjz3y.streamlit.app/)
+
+---
+
+## ▶️ Run this project locally
+
 ```bash
 git clone https://github.com/OkayAkanksha/twitter-sentiment-analysis-ml-streamlit.git
 cd twitter-sentiment-analysis-ml-streamlit
@@ -49,7 +54,6 @@ streamlit run app.py
 
 ---
 
-**## Dataset Link**
+## 📌 Dataset Link
+
 https://www.kaggle.com/datasets/kazanova/sentiment140
-
-
