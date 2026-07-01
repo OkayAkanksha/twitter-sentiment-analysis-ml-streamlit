@@ -15,6 +15,7 @@ Built with **Python, Scikit-Learn, NLP, TF-IDF, and Streamlit UI**.
 - Logistic Regression ML Model trained on Sentiment140 dataset
 - Interactive Web App built using Streamlit
 - Displays sentiment prediction and confidence score
+- Batch CSV prediction for exported tweet text
 
 ---
 
@@ -35,11 +36,14 @@ Built with **Python, Scikit-Learn, NLP, TF-IDF, and Streamlit UI**.
 ├── vectorizer.pkl            # Saved TF-IDF vectorizer
 ├── requirements.txt          # Dependencies for deployment
 └── Twitter_Sentiment_Analysis_using_ML.ipynb  # Training notebook
+```
 
 ---
 
 ## 🌍 Live Demo
-(https://twitter-sentiment-analysis-ml-app-idpd6b8fl3wqij6czdjz3y.streamlit.app/)
+
+Run the app locally with the commands below. Add the current Streamlit URL here
+after deployment.
 
 ---
 
@@ -51,6 +55,23 @@ cd twitter-sentiment-analysis-ml-streamlit
 pip install -r requirements.txt
 python -m nltk.downloader stopwords
 streamlit run app.py
+```
+
+---
+
+## 📥 Batch CSV Prediction
+
+Upload a CSV file up to 2 MB and 5,000 rows with one of these text columns:
+
+- `text`
+- `tweet`
+- `tweet_text`
+- `full_text`
+- `content`
+- `body`
+
+The app appends a `predicted_sentiment` column and lets you download the
+annotated CSV.
 
 ---
 
